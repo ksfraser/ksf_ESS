@@ -1,49 +1,42 @@
 # Business Requirements - ksf_ESS
 
-## Project Overview
-Employee Self Service (ESS) - WordPress plugin providing employee access to HRM functions.
+## Document Information
+- **Module**: ksf_ESS
+- **Version**: 1.0.0
+- **Date**: 2026-05-11
+- **Status**: Proposed
+- **Author**: KSFII Development Team
 
-## Problem Statement
-- Employees need self-service access
-- Similar to WP Customer Portal but for employees
-- Web access for leave requests, timesheets, profile
+---
 
-## Scope
+## 1. Project Overview
 
-### Features
-1. **Employee Dashboard**
-   - My Tasks
-   - My Leave Balance
-   - My Timesheets
-   - My Profile
+ksf_ESS is the Employee Self-Service portal - a WordPress plugin that provides employees access to HR, payroll, and company information.
 
-2. **Leave Self-Service**
-   - Submit leave request
-   - View leave balance
-   - View leave history
+---
 
-3. **Timesheet Self-Service**
-   - Enter time for week
-   - View submitted timesheets
-   - View approved hours
+## 2. Scope
 
-4. **Profile**
-   - View employee info
-   - Update emergency contacts
-   - View pay stubs (if available)
+### ESS Modules
+- Employee profile
+- Leave requests
+- Timesheets
+- Documents
+- Org chart
+- Company directory
 
-5. **My Documents**
-   - View assigned documents
-   - Acknowledge policies
+---
 
-### Technical
-- WordPress plugin
-- Integrates with all HRM APIs
-- Uses WP user authentication
-- Role-based access (employee vs manager)
+## 3. Integration
 
-## Integration
-- ksf_HRM: Employee data
-- ksf_Leave: Leave requests
-- ksf_Timesheets: Time entry
-- ksf_Documents: Policy acknowledgment
+| Module | Description |
+|--------|-------------|
+| ksf_HRM | Employee data |
+| ksf_Leave | Leave requests |
+| ksf_Timesheets | Time entry |
+| ksf_Documents | Employee docs |
+
+---
+
+*Document Version: 1.0.0*
+*Last Updated: 2026-05-11*
