@@ -3,7 +3,7 @@
         'name' => 'ksfraser/ksf-ess',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'a9f57a985428440ad2d16ac54b94f77e71f39617',
+        'reference' => '72178545366ba831d4d85ccf140e816207e2ebe2',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ksfraser/ksf-ess' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'a9f57a985428440ad2d16ac54b94f77e71f39617',
+            'reference' => '72178545366ba831d4d85ccf140e816207e2ebe2',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

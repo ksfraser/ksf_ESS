@@ -229,9 +229,9 @@ class EmployeeProfile
             'manager_id' => $this->managerId,
             'profile_photo' => $this->profilePhoto,
             'phone' => $this->phone,
-            'hire_date' => $this->hireDate?->format('Y-m-d'),
-            'created_at' => $this->createdAt?->format('Y-m-d H:i:s'),
-            'updated_at' => $this->updatedAt?->format('Y-m-d H:i:s'),
+            'hire_date' => ($this->hireDate !== null ? $this->hireDate->format('Y-m-d') : null),
+            'created_at' => ($this->createdAt !== null ? $this->createdAt->format('Y-m-d H:i:s') : null),
+            'updated_at' => ($this->updatedAt !== null ? $this->updatedAt->format('Y-m-d H:i:s') : null),
         ];
     }
 

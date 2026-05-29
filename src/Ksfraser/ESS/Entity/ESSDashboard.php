@@ -146,7 +146,7 @@ class ESSDashboard
             'open_tickets' => $this->openTickets,
             'total_pending_items' => $this->getTotalPendingItems(),
             'action_required' => $this->hasActionRequired(),
-            'generated_at' => $this->generatedAt?->format('Y-m-d H:i:s'),
+            'generated_at' => ($this->generatedAt !== null ? $this->generatedAt->format('Y-m-d H:i:s') : null),
         ];
     }
 }
